@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_text_view"
+        android:textStyle="bold"
+
+        android:textSize="20sp"
+        tools:text="Farmer's Protest "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/des_text_view"
+        android:maxLines="3"
+        android:textSize="16sp"
+
+        tools:text="The Supreme Court Tuesday asked the Centre to file an affidavit on its claim that some banned organisations including Khalistanis' have infiltrated the ongoing
+        farmers protest against the new farm laws. Attorney General KK Venugopal, appearing for the Centre, said that Khalistanis' have infiltrated the protest and he will file an
+         affidavit along with the necessary inputs of the intelligence bureau (IB)."
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_text_view"
+        tools:text="12/08/2000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
